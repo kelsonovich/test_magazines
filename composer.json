@@ -1,0 +1,17 @@
+{
+    "name": "amadeus/api",
+    "authors": [
+        {
+            "name": "kelsonovich",
+            "email": "savinsky.da@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Route/routes.php"
+        ]
+    }
+}
